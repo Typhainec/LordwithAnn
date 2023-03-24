@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Lord of Simplon</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Ajout de la police pour le titre-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap" rel="stylesheet">
+<style>
+h1 {
+    font-family: 'Irish Grover', cursive;
+}
+</style>
+
+</head>
+<body>
+
+<H1>Lord of Simplon</H1>
+
+    <!-- TODO -->
+
+    <!--Haut de la page avec les joueurs-->
+<div class="heroe-fight">
+    <div class="heroe-card">
+        <div class=""heroe-card-img>
+        <img src="img/Paladin.png" alt="Paladin">
+    </div>
+        <div class="heroe-card-text">
+            <h1>Joueur 1</h1>
+            <p>Paladin</p>
+        </div>
+        <div class="score">46</div>
+        <div class="pts">pts</div>
+    </div>
+
+    <h2>VS</h2>
+
+     
+    <div class="heroe-card2">
+        
+        <div class=""heroe-card-img2">
+        <img src="img/Shifumy.png" alt="Paladin">
+    </div>
+        <div class="heroe-card-text2">
+            <h1>Joueur 2</h1>
+            <p>Shifumy</p>
+        </div>
+        <div class="score2">14</div>
+        <div class="pts2">pts</div>
+    </div>
+</div>
+
+<!--Déroulants-->
+
+<div id="heroe-coups" class="three-columns-container">
+
+<div id="card coups" class="column" >
+    <div id="div" style="overflow-y:scroll; height:250px;">
+
+        <div>
+            <p>Attaque</p>
+            <h3>Coin de table</h3>
+        </div>
+        <div><h3>-8pts</h3></div>
+
+        <div>
+            <p>Attaque</p>
+            <h3>Clous rouillés</h3>
+        </div>
+        <div><h3>-8pts</h3></div>
+
+        <div>
+            <p>Attaque</p>
+            <h3>Eau bouillante</h3>
+        </div>
+        <div><h3>-8pts</h3></div>
+
+    </div>    
+</div>
+
+<div class="center-column"></div>
+
+<div id="card coups" class="column">
+    <div id="div" style="overflow-y:scroll; height:250px;">
+
+        <div>
+            <p>Attaque</p>
+            <h3>Epée capricieuse</h3>
+        </div>
+        <div><h3>-8pts</h3></div>
+
+        <div>
+            <p>Attaque</p>
+            <h3>Fontaine de jouvence</h3>
+        </div>
+        <div><h3>-8pts</h3></div>
+
+        <div>
+            <p>Attaque</p>
+            <h3>Croche-pied</h3>
+        </div>
+        <div><h3>-8pts</h3></div>
+
+    </div>        
+</div>
+</div>
+
+
+<!--Prochain tour-->
+
+<div class="next">
+    <div class="next-titre">
+        <h4>À votre tour de jouer !</h4>
+        <p>Choisissez le coup à donner à votre adversaire :</p>
+    </div>
+
+    <div class="next-coups">
+        <div>
+            <h4>Coin de table</h4>
+            <p>-8pts</p>
+        </div>
+
+        <div>
+            <h4>Clous rouillés</h4>
+            <p>-8pts</p>
+        </div> 
+
+        <div>
+            <h4>Eau bouillante</h4>
+            <p>-8pts</p>
+        </div> 
+
+    </div>
+
+    <div class="next-titre">
+        <p>Régénérations et sortilèges :</p>
+    </div>
+
+    <div class="next-sort">
+        <div class="next-sort-vert">
+            <h4>Fontaine de jouvence</h4>
+            <p>+15pts</p>
+        </div>
+
+        <div class="next-sort-rouge">
+            <h4>Mal de mer</h4>
+            <p>-5points (3tours)</p>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
